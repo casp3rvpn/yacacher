@@ -4,6 +4,11 @@ Yandex Geocoding and Suggest proxy and cache
 # Install</br>
 pip install -r requirements.txt</br>
 chmod +x run.sh</br>
+
+<b>edit run.sh and write your api key</br></b>
+export YANDEX_GEOCODING_API_KEY="your_key"</br>
+export YANDEX_SUGGEST_API_KEY="your_key"</br>
+
 ./run.sh</br>
 
 # Default listen port 5000
